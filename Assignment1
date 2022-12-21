@@ -1,0 +1,34 @@
+1.1
+a = int(input("Enter the first number " ))
+b = int(input("Enter the second number "))
+c = int(input("Enter the third number "))
+x = (a+b+c) /3
+print(" The average is ", x)
+
+1.2
+gross= int(input("Enter the gross income"))
+dependent = int(input("Enter the total no. of dependents"))
+Taxable = gross - 10000 - 3000*dependent
+Tax = Taxable* 0.2
+print("Your income tax is ", Tax)
+
+1.3
+a = int(input("Enter the no. of seconds"))
+b = int(a/ 60) 
+c = a% 60
+print("The no. of minutes are ", b, "and the no. of seconds are ", c)
+
+1.4
+a = 25 
+b = '25'
+c = 25.0
+d = int( a +int(b) + int(c))
+print(str(d))
+
+1.5
+import math
+x = 0
+while x<345:
+    print("sine of x is ", str(round(math.sin(x), 4)), "cosine of x is ", str(round( math.cos(x), 4)))
+    x = x+15
+
