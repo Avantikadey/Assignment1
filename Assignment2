@@ -1,0 +1,60 @@
+2.1
+a = " Python is a case sensitive language"
+print(len(a))
+a = " Python is a case sensitive language"[::-1]
+print(a)
+a = " Python is a case sensitive language"
+b= a[11:27]
+print(b)
+print(a.replace("a case sensitive", "object oriented"))
+print(a.index('a'))
+print(a.replace(" ", ""))
+
+2.2
+name = "Avantika Dey"
+SID = 22105027
+dept = 'Electronics and Communication Engineering'
+CGPA = 9.9
+print("Hey %s here" %(name))
+print("My SID is %d"%(SID))
+print("I am from %s department and my CGPA is %lf" %(dept,CGPA))
+
+2.3
+a= 56
+b= 10
+print(a&b)
+print( a|b)
+print( a^b)
+print(a<<2)
+print(b<<2)
+print(a>>2)
+print(b>>4)
+
+2.4
+a = int(input("Enter the first number " ))
+b = int(input("Enter the second number "))
+c = int(input("Enter the third number "))
+if (a>b) and (a>c):
+    print("a is the greatest number")
+elif(b>a) and (b>c):
+    print("b is the greatest number")
+else:
+    print("c is the greatest number")
+
+2.5
+a = str(input("Please write anything"))
+if "name" in a:
+        print("Yes")
+else:
+    print("no")
+
+2.6
+a = int(input("Please enter your first side length "))
+b = int(input("Please enter your second side length "))
+c = int(input("Please enter your third side length "))
+if c> a + b or a> b+c or b> a+ c:
+    print("No")
+elif a==0 or b==0 or c==0:
+    print("Length can't be 0")
+else:
+    print("yes")
